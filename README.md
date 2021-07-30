@@ -1,1 +1,1 @@
-# terraform-labs
+https://github.com/<githubUsername>/terraform-labs.git
