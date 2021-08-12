@@ -1,7 +1,9 @@
 loc     = "eastus"
+
 tags    = {
-    source = "citadel"
-    env    = "training"
+    source      = "citadel"
+    env         = "training"
+    provisioner = "terraform"     
 }
 
 webapplocs = [
@@ -9,3 +11,4 @@ webapplocs = [
     "uksouth",
     "centralindia"
 ]
+

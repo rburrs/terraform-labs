@@ -1,0 +1,44 @@
+{
+    "properties": {
+        "roleName": "Terraform",
+        "description": "Contributor, with exploded Microsoft.Authorization actions and no Blueprint actions.",
+        "assignableScopes": [
+            "/subscriptions/c4991cab-5087-4f7e-b84f-0b71c321997f"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "*"
+                ],
+                "notActions": [
+                    "Microsoft.Authorization/classicAdministrators/write",
+                    "Microsoft.Authorization/classicAdministrators/delete",
+                    "Microsoft.Authorization/denyAssignments/write",
+                    "Microsoft.Authorization/denyAssignments/delete",
+                    "Microsoft.Authorization/locks/write",
+                    "Microsoft.Authorization/locks/delete",
+                    "Microsoft.Authorization/policyAssignments/write",
+                    "Microsoft.Authorization/policyAssignments/delete",
+                    "Microsoft.Authorization/policyDefinitions/delete",
+                    "Microsoft.Authorization/policyDefinitions/write",
+                    "Microsoft.Authorization/policySetDefinitions/write",
+                    "Microsoft.Authorization/policySetDefinitions/delete",
+                    "Microsoft.Authorization/roleAssignments/write",
+                    "Microsoft.Authorization/roleAssignments/delete",
+                    "Microsoft.Authorization/roleDefinitions/write",
+                    "Microsoft.Authorization/roleDefinitions/delete",
+                    "Microsoft.Blueprint/blueprintAssignments/write",
+                    "Microsoft.Blueprint/blueprints/artifacts/write",
+                    "Microsoft.Blueprint/blueprints/write",
+                    "Microsoft.Blueprint/blueprints/versions/write",
+                    "Microsoft.Blueprint/blueprintAssignments/delete",
+                    "Microsoft.Blueprint/blueprints/delete",
+                    "Microsoft.Blueprint/blueprints/artifacts/delete",
+                    "Microsoft.Blueprint/blueprints/versions/delete"
+                ],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
