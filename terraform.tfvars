@@ -12,3 +12,9 @@ webapplocs = [
     "centralindia"
 ]
 
+storage = [
+    "eastus",
+    "westus",
+    "eastus2"
+]
+
